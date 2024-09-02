@@ -150,7 +150,7 @@ span {
     flex-direction: column;
     justify-content: space-between;
     min-height: 25rem;
-    margin-bottom: 1rem; 
+    margin-bottom: 5rem; 
 }
 
 .services-container .services-box {
@@ -210,7 +210,6 @@ span {
 .portfolio-box img {
     width: 100%;
     transition: 0.5s ease;
-
 }
 
 .portfolio-box img:hover {
@@ -240,7 +239,6 @@ span {
 
 .portfolio-layer h4 {
     font-size: 1.8rem;
-
 }
 
 .portfolio-layer p {
@@ -261,14 +259,12 @@ span {
     font-size: 1.2rem;
     color: var(--bg-color-02);
 }
-
 /* ==== formulário =====*/
 form {
     max-width: 45ren;
     margin: 0.6rem auto;
     text-align: center;
     margin-bottom: 2rem;
-
 
     border: solid 1px var(--color-03); /* teste */
 }
@@ -278,6 +274,18 @@ form .input-box {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+form .input-box input, form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--bg-color-02);
+    border-radius: 0.5rem;
+    margin: 0.4 rem 0;
+     
+}
+
 
 /*===== bbutton ===== */
 .btn {
@@ -289,7 +297,7 @@ form .input-box {
     font-weight: 600;
     letter-spacing: 0.1rem;
     transition: 0.3s ease;
-    margin-top: 1,2rem;
+    margin-top: 1.2rem;
 }
 
 .btn:hover {
