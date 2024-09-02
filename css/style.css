@@ -358,6 +358,45 @@ footer {
     background-color: var(--text-color);
     margin: 0.4rem 0;
     transition: 0.3s ease;
-    
 }
+
+.change .bar1 {
+    transform: translate(0, 0.65rem) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -0.65rem) rotate(45deg);
+}
+
 /* === /meu hamburguer ======*/
+
+/* === midia queries ======*/
+
+
+
+/* Extra Small (xs): Smartphone (portrait) */
+
+@media (min-width: 576px) {
+    .menu-hamburguer {
+        display: block;
+     }
+
+     .nav {
+        display: none;
+
+     }
+
+     header {
+        background-color: var(--bg-color-01); /* Testes */
+     }
+
+}
+
+/* === /midia queries ======*/
+
+
+
