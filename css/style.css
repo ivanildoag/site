@@ -230,7 +230,7 @@ span {
     align-items: center;
     text-align: center;
     padding: 0 4rem;
-    transform: translateY(30rem);
+    transform: translateY(12rem);
     transition: 0.5s ease;
 }
 
