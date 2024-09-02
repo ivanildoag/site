@@ -278,6 +278,7 @@ form .input-box {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 /*===== bbutton ===== */
 .btn {
     display: inline-block;
