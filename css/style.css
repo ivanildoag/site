@@ -352,11 +352,12 @@ footer {
     cursor: pointer;
 }
 
-.bar1 .bar3, .bar3 {
+.bar1 bar2, .bar3 {
     width: 2rem;
     height: 0.3rem;
     background-color: var(--text-color);
     margin: 0.4rem 0;
     transition: 0.3s ease;
+    
 }
 /* === /meu hamburguer ======*/
